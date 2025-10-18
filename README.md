@@ -57,26 +57,8 @@ python server.py
 3. Abre en el navegador:
 http://127.0.0.1:8000
 
-📸 Capturas finales
-
-pantalla_inicio.png
-
-<img width="1347" height="399" alt="image" src="https://github.com/user-attachments/assets/e2cae027-606e-4d2d-9aa8-a6846a84bedd" />
-
-
-pantalla_crear.png
-
-<img width="1026" height="378" alt="image" src="https://github.com/user-attachments/assets/68063273-8269-4ab1-9409-4dc63086f97a" />
-
-
-pantalla_lecturas_registradas.png
-<img width="750" height="538" alt="image" src="https://github.com/user-attachments/assets/07f2d170-9712-40e6-9d44-63a8a2ec8743" />
-
-
-pantalla_reporte.png
-
-![Uploading image.png…]()
 
 Link: [https://jliliana12.github.io/Panel_de_control_invernadero-inteligente/](https://jliliana12.github.io/Panel_de_control_invernadero-inteligente/)
+
 
 
