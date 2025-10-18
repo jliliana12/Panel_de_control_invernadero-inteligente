@@ -1,0 +1,67 @@
+:root{
+    --green-1:#2b7a4b;
+    --green-2:#a8d08d;
+    --accent:#ffd166;
+    --card-bg: rgba(255,255,255,0.92);
+}
+
+*{box-sizing:border-box}
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(180deg, #eafaf1 0%, #dff3ea 100%), url('https://images.unsplash.com/photo-1527772034934-0c70c429ec35?auto=format&fit=crop&w=1400&q=60') center/cover fixed;
+    min-height:100vh;
+    color:#123;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+}
+
+.container{
+    width:100%;
+    max-width:1000px;
+    background:var(--card-bg);
+    border-radius:16px;
+    padding:22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+header{text-align:center;margin-bottom:12px}
+h1{margin:6px 0; color:var(--green-1)}
+.subtitle{margin:0;color:#456;font-weight:600}
+
+.card{padding:14px;margin:12px 0;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.92), rgba(245,255,240,0.9));}
+.form-card{display:flex;flex-direction:column;gap:10px}
+.report-card{text-align:center}
+.list-card{max-height:300px;overflow:auto}
+
+input{
+    padding:10px;border-radius:8px;border:1px solid #cfd;outline:none;
+    font-size:14px;width:100%;
+}
+.row{display:flex;gap:8px}
+.row input{flex:1}
+
+.btn{
+    padding:10px 14px;border-radius:8px;border:none;cursor:pointer;font-weight:600;margin:6px;
+    background:transparent;
+}
+.btn.primary{background:var(--green-1);color:white;box-shadow:0 6px 12px rgba(43,122,75,0.2)}
+.btn.danger{background:#e24b4b;color:white}
+.controls{margin-top:8px}
+.list{list-style:none;padding:0;margin:0}
+.list li{
+    padding:10px;border-radius:8px;margin:6px 0;background:linear-gradient(90deg,#fff,#f7fff7);
+    cursor:pointer;border:1px solid #e6f0e8;display:flex;justify-content:space-between;align-items:center;
+}
+.list li:hover{box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+
+.report-text{font-weight:600;padding:8px;background:#f1fff4;border-radius:8px}
+.report-text.en{color:#444;font-weight:500;font-style:italic}
+
+/* Modal */
+.modal{position:fixed;inset:0;background:rgba(0,0,0,0.45);display:flex;align-items:center;justify-content:center;padding:20px}
+.hidden{display:none}
+.modal-content{background:white;padding:18px;border-radius:12px;width:100%;max-width:520px;box-shadow:0 10px 30px rgba(0,0,0,0.2)}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
