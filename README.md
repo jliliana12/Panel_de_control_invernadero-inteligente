@@ -77,4 +77,6 @@ pantalla_reporte.png
 
 ![Uploading image.png…]()
 
-Link: https://jliliana12.github.io/Panel_de_control_invernadero-inteligente/
+Link: [https://jliliana12.github.io/Panel_de_control_invernadero-inteligente/](https://jliliana12.github.io/Panel_de_control_invernadero-inteligente/)
+
+
